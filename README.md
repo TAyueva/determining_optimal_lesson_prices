@@ -1,5 +1,10 @@
 # iTalki-lesson-price
 
+
+**part 1 - 20v**
+**part 2 - 17v**
+
+
 **Business model description**
 
 Italki is the marketplace for online language teachers. Freelance teacher sign up on the platform and his resume becomes available for booking by students.
