@@ -1,50 +1,45 @@
-# iTalki-lesson-price
-
-
-**part 1 - 20v**
-**part 2 - 17v**
-
+# italki: determining optimal lesson prices
 
 **Business model description**
 
-Italki is the marketplace for online language teachers. Freelance teacher sign up on the platform and his resume becomes available for booking by students.
-
-All lessons are 1 on 1. Group lessons are currently not available. 
-
-Teacher can offer various types of lesson duration (30minutes/45 minutes/90 minutes). 60 minute lessons are mandatory and cannot be unselected.
-
-*There are two types of teachers on italki:*   
-
-- Professional teachers have proven experience teaching and the qualifications required to help you learn a language efficiently.
-- Community tutors are passionate language-lovers who want to share their knowledge with others.
-
-*There are 6 lesson category options:*
-
-Trial
-General
-Conversation Practice
-Business
-Test Preparation
-Kids
-
-For each category there could be different price.
-
-Recommended prices:
+italki is the marketplace for online language teachers. Freelance teacher sign up on the platform and his resume becomes available for booking by students.
 
 
-Packages: Teacher have an opportunity to offer a discount to his future students to encourage them to buy a package rather than an individual lesson.
+The teacher can offer various types of lesson duration in 6 lesson categories. For each lesson there could be different price.
 
 **Commission**
 italki takes 15% out of the lesson fee as its commission for all completed lessons, excluding trial lessons.
 
 
+Based on the principles of the data science and machine learning, this model represents an analysis of the accessed information and generates the optimal prices for all lessons. 
+
+**The business objectives and goals that the project helps to achieve**
+
+ The main goal of any business is to maximise its profits
+ Because italki assesses a fixed 15% of the lesson fee as the commission for all completed lessons, there are two ways:
+— Increase the number of completed lessons
+— Increase the lesson prices
+
+Pricing policy is sensitive:
+— If the lesson’s price is too high, there will be fewer booked lessons
+— Conversely, if the lesson’s price   is too low, there is an opportunity   to increase it and earn more income in less time
+So, the highest net revenue — for both italki and its partners — results from setting optimal lesson prices.
+
+**Project overview**
+For this project, I collected information about 2776 English teachers from the italki website, prepared a detailed analysis   of the available data, optimized existing features and created new ones.
 
 
+Based on the prepared features using data science and machine learning, I built a model for optimal lesson price calculation.
+Data for 60-minute lessons was used exclusively, as this lesson offering is mandatory and cannot be unselected.
 
-**Trial lessons**
+**Project outcomes**
 
-All trial lessons are 30 minutes and not free, so make sure you set them up at a competitive price. Trial lessons are highly recommended because they are: 
-A great way to attract new students. 
- Your opportunity to get to know the student. 
- Can be used to demonstrate your teaching style and to discuss a learning plan. 
- And most important, it is your first step to winning a loyal student.
+The Mean Absolute Error (MAE) was used as the evaluation metric.  
+MAE is defined as the average variance between an expected values and a predicted values, without considering their direction.
+
+
+Results
+$ 3.47
+MAE in train dataset
+$ 3.61
+MAE in test dataset
