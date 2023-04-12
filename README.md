@@ -2,14 +2,14 @@
 
 **Business model description**
 
- italki is a marketplace for online language teachers. A freelance teacher registers on the platform and their resume is made available for students to book.
- The teacher can offer various types of lesson duration in 6 lesson categories. For each lesson there could be different price.
- Commission: italki takes 15% out of the lesson fee as its commission for all completed lessons, excluding trial lessons.
+italki is a marketplace for online language teachers. A freelance teacher registers on the platform and their resume is made available for students to book.
+
+The teacher can offer various types of lesson duration in 6 lesson categories. For each lesson there could be different price.
+italki assesses a fixed 15% of the lesson fee as the commission for all completed lessons.
 
 **The business objectives and goals that the project helps to achieve**
 
- The main goal of any business is to maximise its profits
- Because italki assesses a fixed 15% of the lesson fee as the commission for all completed lessons, there are two ways:
+ The main goal of any business is to maximise its profits. There are two ways:
 — Increase the number of completed lessons
 — Increase the lesson prices
 
@@ -21,10 +21,9 @@ So, the highest net revenue — for both italki and its partners — results fro
 
 **Project overview**
 
-For this project, I collected information about 2776 English teachers from the italki website, prepared a detailed analysis   of the available data, optimized existing features and created new ones.
+For this project, I collected information about 2776 English teachers from the italki website, prepared a detailed analysis of the available data, optimized existing features and created new ones.
 
 Based on the prepared features using data science and machine learning, I built a model for optimal lesson price calculation.
-Data for 60-minute lessons was used exclusively, as this lesson offering is mandatory and cannot be unselected.
 
 **Project outcomes**
 
