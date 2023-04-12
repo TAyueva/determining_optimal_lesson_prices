@@ -2,16 +2,11 @@
 
 **Business model description**
 
-italki is the marketplace for online language teachers. Freelance teacher sign up on the platform and his resume becomes available for booking by students.
-
+italki is a marketplace for online language teachers. A freelance teacher registers on the platform and their resume is made available for students to book.
 
 The teacher can offer various types of lesson duration in 6 lesson categories. For each lesson there could be different price.
 
-**Commission**
-italki takes 15% out of the lesson fee as its commission for all completed lessons, excluding trial lessons.
-
-
-Based on the principles of the data science and machine learning, this model represents an analysis of the accessed information and generates the optimal prices for all lessons. 
+Commission: italki takes 15% out of the lesson fee as its commission for all completed lessons, excluding trial lessons.
 
 **The business objectives and goals that the project helps to achieve**
 
@@ -22,24 +17,22 @@ Based on the principles of the data science and machine learning, this model rep
 
 Pricing policy is sensitive:
 — If the lesson’s price is too high, there will be fewer booked lessons
-— Conversely, if the lesson’s price   is too low, there is an opportunity   to increase it and earn more income in less time
+— Conversely, if the lesson’s price is too low, there is an opportunity to increase it and earn more income in less time
+
 So, the highest net revenue — for both italki and its partners — results from setting optimal lesson prices.
 
 **Project overview**
-For this project, I collected information about 2776 English teachers from the italki website, prepared a detailed analysis   of the available data, optimized existing features and created new ones.
 
+For this project, I collected information about 2776 English teachers from the italki website, prepared a detailed analysis   of the available data, optimized existing features and created new ones.
 
 Based on the prepared features using data science and machine learning, I built a model for optimal lesson price calculation.
 Data for 60-minute lessons was used exclusively, as this lesson offering is mandatory and cannot be unselected.
 
 **Project outcomes**
 
-The Mean Absolute Error (MAE) was used as the evaluation metric.  
+The Mean Absolute Error (MAE) was used as the evaluation metric.
 MAE is defined as the average variance between an expected values and a predicted values, without considering their direction.
 
-
-Results
-$ 3.47
-MAE in train dataset
-$ 3.61
-MAE in test dataset
+Results:
+MAE in train dataset - $ 3.47
+MAE in test dataset - $ 3.61
