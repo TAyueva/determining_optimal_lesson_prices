@@ -2,11 +2,9 @@
 
 **Business model description**
 
-italki is a marketplace for online language teachers. A freelance teacher registers on the platform and their resume is made available for students to book.
-
-The teacher can offer various types of lesson duration in 6 lesson categories. For each lesson there could be different price.
-
-Commission: italki takes 15% out of the lesson fee as its commission for all completed lessons, excluding trial lessons.
+ italki is a marketplace for online language teachers. A freelance teacher registers on the platform and their resume is made available for students to book.
+ The teacher can offer various types of lesson duration in 6 lesson categories. For each lesson there could be different price.
+ Commission: italki takes 15% out of the lesson fee as its commission for all completed lessons, excluding trial lessons.
 
 **The business objectives and goals that the project helps to achieve**
 
@@ -34,5 +32,7 @@ The Mean Absolute Error (MAE) was used as the evaluation metric.
 MAE is defined as the average variance between an expected values and a predicted values, without considering their direction.
 
 Results:
+
 MAE in train dataset - $ 3.47
+
 MAE in test dataset - $ 3.61
